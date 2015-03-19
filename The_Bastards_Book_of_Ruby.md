@@ -70,7 +70,8 @@ The one intricacy to the crack gem is that it also converts XML into arrays. Thi
 </people>
 ```
 
+#### Introduction to the Array
 The **crack** gem will create an array to hold each person, and I will need to specify which person I want to access: `puts parsed_xml['people']['person'][0]['first_name']`
+The structure of handling tags of the same name at the same level is not a *hash*, but an **array**. In the code above, I would have to specify which element in the array I want to access. 
 
 # CURRENTLY AT  http://ruby.bastardsbook.com/chapters/intro_tweet_fetch/
-# INTRODUCTION TO THE ARRAY

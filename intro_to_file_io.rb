@@ -14,4 +14,3 @@ local_file = open(local_file_name, "w")
 puts "Writing to #{local_file_name}"
 local_file.write(remote_data)
 local_file.close
-
